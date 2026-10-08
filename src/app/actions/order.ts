@@ -3,7 +3,6 @@
 import { db } from "@/db";
 import { products, orders, orderItems } from "@/db/schema";
 import { eq, inArray } from "drizzle-orm";
-import { generateId } from "@/lib/utils"; // Kita akan buat utility ini
 
 type CheckoutData = {
   customerName: string;
