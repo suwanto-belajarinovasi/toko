@@ -8,7 +8,7 @@ export function Header() {
       <div className="container mx-auto max-w-7xl px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <Link href="/" className="flex items-center gap-2">
-            // Cari baris ini di dalam Header.tsx dan pastikan menggunakan https
+            
 <Image 
   src="https://lh3.googleusercontent.com/d/1V7RV4GJbNhX65Fv81QRhnAQxwSndHEGk" 
   alt="Belajar Inovasi Logo" 
