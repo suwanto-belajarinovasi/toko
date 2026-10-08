@@ -8,13 +8,14 @@ export function Header() {
       <div className="container mx-auto max-w-7xl px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <Link href="/" className="flex items-center gap-2">
-            <Image 
-              src="http://lh3.googleusercontent.com/d/1V7RV4GJbNhX65Fv81QRhnAQxwSndHEGk" 
-              alt="Belajar Inovasi Logo" 
-              width={140} 
-              height={40} 
-              className="object-contain"
-            />
+            // Cari baris ini di dalam Header.tsx dan pastikan menggunakan https
+<Image 
+  src="https://lh3.googleusercontent.com/d/1V7RV4GJbNhX65Fv81QRhnAQxwSndHEGk" 
+  alt="Belajar Inovasi Logo" 
+  width={140} 
+  height={40} 
+  className="object-contain"
+/>
           </Link>
           <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-600">
             <Link href="/" className="hover:text-brand-600 transition-colors">Beranda</Link>
